@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thumbnail Carousel Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#section1">Section One</a></li>
+      <li><a href="#section2">Section Two</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section 1 -->
+  <section id="section1">
+    <h2>Section One</h2>
+    <p>Content related to the first theme.</p>
+  </section>
+
+  <!-- Section 2 -->
+  <section id="section2">
+    <h2>Section Two</h2>
+    <p>Content related to the second theme.</p>
+
+    <!-- Carousel -->
+    <div class="carousel">
+      <button id="prev">&#10094;</button>
+      <div class="carousel-track-container">
+        <ul class="carousel-track">
+          <li class="carousel-slide"><img src="https://via.placeholder.com/150" alt="1" /></li>
+          <li class="carousel-slide"><img src="https://via.placeholder.com/150" alt="2" /></li>
+          <li class="carousel-slide"><img src="https://via.placeholder.com/150" alt="3" /></li>
+        </ul>
+      </div>
+      <button id="next">&#10095;</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
